@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\PCTUNNING\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\PCTUNNING\\.nuget\\packages"
+    ]
+  }
+}

@@ -1,0 +1,171 @@
+{
+  "id": "decc0faa-a2a2-43a7-a037-a7e94f11a2c1",
+  "version": "2.0",
+  "name": "T2PruebasSelenium",
+  "url": "https://localhost:44320",
+  "tests": [{
+    "id": "3a056795-cf5c-41fb-9246-5366e124cee5",
+    "name": "PuedoVerMiBiblioteca",
+    "commands": [{
+      "id": "f6f51ac9-04f3-4d9d-8bc0-ec6c53fe5a38",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6c072841-61ba-436d-9173-58748e9abd6a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "777x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4eb9a8aa-9f78-4066-a678-45c9eb7917fd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Mi Biblioteca",
+      "targets": [
+        ["linkText=Mi Biblioteca", "linkText"],
+        ["css=.nav-item:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Mi Biblioteca')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/Biblioteca')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Mi Biblioteca')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "b0d8e4c8-222e-4bd4-969a-a24b509ed26d",
+    "name": "VerDetalleDeLibro",
+    "commands": [{
+      "id": "4babc3ed-39b0-4e63-9dc9-c0bf9dcf9023",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ac1f4ed0-3a82-49e5-a078-18ee02dbdb0b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "777x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d6573afd-9498-4f2d-a21e-8c1652d86d23",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-sm-3:nth-child(1) .img-responsive",
+      "targets": [
+        ["css=.col-sm-3:nth-child(1) .img-responsive", "css:finder"],
+        ["xpath=//div[@id='myCarousel']/div/div/div/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "46cc1e35-9f54-489f-b153-23030c888903",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Home",
+      "targets": [
+        ["linkText=Home", "linkText"],
+        ["css=.nav-item:nth-child(1) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Home')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/')])[2]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Home')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d6a0b940-708e-4865-aec8-30694350241a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-sm-3:nth-child(3) .img-responsive",
+      "targets": [
+        ["css=.col-sm-3:nth-child(3) .img-responsive", "css:finder"],
+        ["xpath=//div[@id='myCarousel']/div/div/div/div[3]/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "96d3b24d-ee14-498d-b57f-3af6e443ecdc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Home",
+      "targets": [
+        ["linkText=Home", "linkText"],
+        ["css=.nav-item:nth-child(1) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Home')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, '/')])[2]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Home')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "a979b225-2b7d-4992-ab58-3d480fce1f5a",
+    "name": "AgregarLibro_a_Biblioteca",
+    "commands": [{
+      "id": "b34339eb-02b0-4c7a-a7b3-5de772d59fcb",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a5c40988-c697-4a68-8c1e-0be1a6d6e59f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "777x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ae229ca5-466b-49a8-8c9f-250f5bd9071f",
+      "comment": "",
+      "command": "click",
+      "target": "css=body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "574773ac-8269-4f55-a27d-8a721443443e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-sm-3:nth-child(6) .btn",
+      "targets": [
+        ["css=.col-sm-3:nth-child(6) .btn", "css:finder"],
+        ["xpath=(//a[contains(text(),'Agregar a biblioteca')])[6]", "xpath:link"],
+        ["xpath=//div[@id='myCarousel']/div/div/div/div[6]/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/biblioteca/add?libro=8')]", "xpath:href"],
+        ["xpath=//div[6]/div/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "65d2e8b3-8457-42e7-989f-a0ea5ece0b18",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-sm-3:nth-child(4) .btn",
+      "targets": [
+        ["css=.col-sm-3:nth-child(4) .btn", "css:finder"],
+        ["xpath=(//a[contains(text(),'Agregar a biblioteca')])[4]", "xpath:link"],
+        ["xpath=//div[@id='myCarousel']/div/div/div/div[4]/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/biblioteca/add?libro=6')]", "xpath:href"],
+        ["xpath=//div[4]/div/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "a88995cb-13d6-4195-9878-4c038ec13f63",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://localhost:44320/"],
+  "plugins": []
+}
