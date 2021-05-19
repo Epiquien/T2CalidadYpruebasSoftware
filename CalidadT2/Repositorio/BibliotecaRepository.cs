@@ -1,4 +1,5 @@
 ﻿using CalidadT2.Models;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +9,7 @@ namespace CalidadT2.Repositorio
 {
     public interface IBibliotecaRepository
     {
-
+      
     }
     public class BibliotecaRepository : IBibliotecaRepository
     {
@@ -19,5 +20,6 @@ namespace CalidadT2.Repositorio
             this.app = app;
         }
 
+        
     }
 }
